@@ -15,19 +15,19 @@ public class Animals {
     }
 
     public void toRun() {
-        System.out.println(this.type + " " + this.name + " пробежал ");
+        System.out.println(this.type + " " + this.name + " пробежал " + MainClass.distanceRun + " м.");
     }
 
     public void failRun() {
-        System.out.println(this.type + " " + this.name + " не смог пробежать ");
+        System.out.println(this.type + " " + this.name + " не смог пробежать " + MainClass.distanceRun + " м.");
     }
 
     public void toSail() {
-        System.out.println(this.type + " " + this.name + " проплыл ");
+        System.out.println(this.type + " " + this.name + " проплыл " + MainClass.distanceSwim + " м.");
     }
 
     public void failSail() {
-        System.out.println(this.type + " " + this.name + " не смог проплыть ");
+        System.out.println(this.type + " " + this.name + " не смог проплыть " + MainClass.distanceSwim + " м.");
     }
 
     protected boolean Run() {

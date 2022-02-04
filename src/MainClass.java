@@ -24,7 +24,7 @@ public class MainClass {
             } else {
                 animals[i].failRun();
             }
-        }5
+        }
 
     goSwim();
         for (int i = 0; i < animals.length; ++i) {
