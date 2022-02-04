@@ -1,6 +1,4 @@
 public class MainClass {
-    public MainClass() {
-    }
 
     public static void main(String[] args) {
         Dog dog = new Dog("Пёс", "Бобик", 500, 10);
