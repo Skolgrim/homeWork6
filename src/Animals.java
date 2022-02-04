@@ -1,4 +1,5 @@
 public class Animals {
+
     protected String type;
     protected String name;
     protected int maxRun;
@@ -11,22 +12,6 @@ public class Animals {
         this.maxRun = maxRun;
         this.maxSwimming = maxSwimming;
         ++numberAnimals;
-    }
-
-    String getType() {
-        return this.type;
-    }
-
-    String getName() {
-        return this.name;
-    }
-
-    int getMaxRun() {
-        return this.maxRun;
-    }
-
-    int getMaxSwimming() {
-        return this.maxSwimming;
     }
 
     public void toRun() {
@@ -45,11 +30,11 @@ public class Animals {
         System.out.println(this.type + " " + this.name + " не смог проплыть ");
     }
 
-    protected boolean Run(int distance) {
-        return distance <= this.maxRun;
+    protected boolean Run() {
+        return MainClass.distanceRun <= this.maxRun;
     }
 
-    boolean Swim(int distance) {
-        return distance <= this.maxSwimming;
+    boolean Swim() {
+        return MainClass.distanceSwim <= this.maxSwimming;
     }
 }

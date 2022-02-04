@@ -6,7 +6,7 @@ public class Cat extends Animals {
         ++numberCat;
     }
 
-    boolean Swim(int distance) {
+    boolean Swim() {
         return false;
     }
 
